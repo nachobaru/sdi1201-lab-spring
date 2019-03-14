@@ -17,9 +17,7 @@ public class InsertSampleDataService {
 	private UsersService usersService;
 	@Autowired
 	private RolesService rolesService;
-	@Autowired
-	private MarksService marksService;
-
+	
 	@PostConstruct
 	public void init() {
 
